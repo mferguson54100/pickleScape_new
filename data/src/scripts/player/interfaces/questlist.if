@@ -63,7 +63,8 @@ shadowed=yes
 text=Demon Slayer
 colour=0x9F9F9F
 
-[runemysteries]
+
+[chan]
 layer=com_0
 type=text
 x=10
@@ -73,8 +74,22 @@ width=125
 height=14
 font=p12
 shadowed=yes
-text=Rune Mysteries Quest
+text=Chandlers Little Helper
 colour=0x9F9F9F
+
+
+// [runemysteries]
+// layer=com_0
+// type=text
+// x=10
+// y=223
+// //buttontype=normal
+// width=125
+// height=14
+// font=p12
+// shadowed=yes
+// text=Rune Mysteries Quest
+// colour=0x9F9F9F
 
 [doric]
 layer=com_0
@@ -898,3 +913,4 @@ y=228
 width=36
 height=36
 graphic=miscgraphics,3
+

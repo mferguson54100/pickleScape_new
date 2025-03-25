@@ -1,2 +1,29 @@
+
+// request head function 
+[opnpc2,chandler]
+~chatnpc("<p,confused>Nothing gay about getting your dick sucked !");
+
+// Chandlers little helper
+
 [opnpc1,chandler]
-~chatnpc("<p,confused>I am dumb");
+
+if(%chandlerslittlehelper_progress = ^chandlerslittlehelper_not_started){
+
+~chatnpc("<p,angry>Could you get me a vape ?");
+def_int $option = ~p_choice2("Sure", 1, "no", 2);
+if($option = 1) {
+~chatnpc("<p,confused>Great go talk to the sketchy kid behind edgeville bank. He should know where to find one.");
+    %chandlerslittlehelper_progress = ^chandlerslittlehelper_started;
+    ~send_quest_progress(questlist:chan, %chandlerslittlehelper_progress, ^chandlerslittlehelper_complete);
+} else if($option = 2) {
+    ~chatnpc("<p,confused>Okay then .");
+}
+
+
+}else if(%chandlerslittlehelper_progress ! ^chandlerslittlehelper_complete & %chandlerslittlehelper_progress  ! ^chandlerslittlehelper_not_started ){
+
+~chatnpc("<p,confused>Hurry I need that vape before my dad gets home .");
+
+}
+
+

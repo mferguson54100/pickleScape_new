@@ -129,10 +129,11 @@ moverestrict=indoors
 [chandler]
 vislevel=hide
 name=Chandler
-desc=a new char
+desc=a fucking pussy 
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
+op2=Request-head
 recol1s=0
 recol1d=1053
 recol2s=31828

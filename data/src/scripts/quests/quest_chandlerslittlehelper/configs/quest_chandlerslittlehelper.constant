@@ -1,0 +1,6 @@
+^chandlerslittlehelper_not_started = 0
+^chandlerslittlehelper_started = 1
+^chandlerslittlehelper_talked_to_kid = 2
+^chandlerslittlehelper_talked_to_wise_old_man = 3
+^chandlerslittlehelper_give_kid_vape = 4
+^chandlerslittlehelper_talk_to_chandler = 5

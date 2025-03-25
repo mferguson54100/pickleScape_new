@@ -247,6 +247,7 @@ if (%itwatchtower_progress = ^itwatchtower_complete) {
 %questpoints = $questpoints;
 
 ~send_quest_progress_colour(questlist:runemysteries, %runemysteries_progress, ^runemysteries_complete);
+~send_quest_progress_colour(questlist:chan, %chandlerslittlehelper_progress, ^chandlerslittlehelper_complete);
 ~send_quest_progress_colour(questlist:doric, %doric_progress, ^doric_complete);
 ~send_quest_progress_colour(questlist:cook, %cook_progress, ^cook_complete);
 ~send_quest_progress_colour(questlist:romeojuliet, %romeojuliet_progress, ^romeojuliet_complete);
