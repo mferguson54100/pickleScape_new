@@ -1,0 +1,4 @@
+// [queue,chandlers_little_helper_complete]
+// %chandlerslittlehelper_progress = ^chandlerslittlehelper_complete;
+// session_log(^log_adventure, "Quest complete: Chandlers little helper");
+// ~send_quest_complete(questlist:chan, vape, 1, ^runemysteries_questpoints, "You have completed the\\nChandlers little helper Quest!");
