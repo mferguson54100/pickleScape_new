@@ -1,0 +1,21 @@
+[opnpc1,wise_old_man]
+
+if(%chandlerslittlehelper_progress = ^chandlerslittlehelper_started){
+
+~chatnpc("<p,angry>Looking for a vape I see ?");
+def_int $option = ~p_choice2("ya bro", 1, "no", 2);
+if($option = 1) {
+~chatnpc("<p,confused>Well bofore I give you a vape you're going to have to talk to youngsters so I know you're cool enough");
+    %chandlerslittlehelper_progress = ^chandlerslittlehelper_talked_to_wise_old_man;
+    ~send_quest_progress(questlist:chan, %chandlerslittlehelper_progress, ^chandlerslittlehelper_complete);
+} else if($option = 2) {
+    ~chatnpc("<p,confused>Well you don't even vape bro.");
+}
+
+}else{
+
+~chatnpc("<p,confused>Get out of here noob.");
+  
+}
+
+
